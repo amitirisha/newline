@@ -40,11 +40,13 @@ jobs:
     - name: Terraform Apply
       id: Apply
       run: terraform apply --auto-approve
+      continue-on-error: true 
       working-directory: .
     - name: Terraform Destroy
       id: destroy
       run: terraform destroy --auto-approve
-      working-directory: .  
+      working-directory: .
+      continue-on-error: true 
       
 
     
