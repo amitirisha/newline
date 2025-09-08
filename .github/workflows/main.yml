@@ -6,3 +6,10 @@ on:
     branches:
       - 'main'
       - 'feature/**'
+jobs:
+  terraformInit
+    name: terraform initwa
+    runs-on: ubuntu-latest
+    steps:
+    - name: kuchbhi
+      run: echo Hello amit
