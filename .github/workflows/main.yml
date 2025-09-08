@@ -7,7 +7,7 @@ on:
       - 'main'
       - 'feature/**'
 jobs:
-  terraformInit
+  terraformInit:
     name: terraform initwa
     runs-on: ubuntu-latest
     steps:
