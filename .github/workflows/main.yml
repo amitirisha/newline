@@ -1,0 +1,8 @@
+
+name: 'MyfirstPipeline'
+
+on: 
+  push:
+    branches:
+      - 'main'
+      - 'feature/**'
